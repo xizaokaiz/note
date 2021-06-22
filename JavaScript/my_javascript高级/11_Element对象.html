@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Element对象</title>
+</head>
+<body>
+
+  <a>点我试一试</a>
+  <input type="button" value="设置属性" id="btn_set">
+  <input type="button" value="删除属性" id="btn_remove">
+
+  <script>
+    //获取btn
+    var btn_set = document.getElementById("btn_set");
+    btn_set.onclick = function (){
+      //1.获取a标签
+      var element_a = document.getElementsByTagName("a")[0];
+      element_a.setAttribute("href","https://www.baidu.com")
+    }
+
+
+    var btn_remove = document.getElementById("btn_remove");
+    btn_set.onclick = function (){
+      //1.获取a标签
+      var element_a = document.getElementsByTagName("a")[0];
+      element_a.removeAttribute("href","https://www.baidu.com")
+    }
+
+
+
+  </script>
+</body>
+</html>
