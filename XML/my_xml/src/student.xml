@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <students>
+ 	<student number="heima_0001">
+		<name id="itcast">
+			<xing>zhang</xing>
+			<ming>san</ming>
+		</name>
+		<age>23</age>
+		<sex>male</sex>
+	</student>
+
+	<student number="heima_0002">
+		<name>jack</name>
+		<age>11</age>
+		<sex>female</sex>
+	</student>
+
+ </students>
